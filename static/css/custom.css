@@ -1,0 +1,18 @@
+/* Equal-height image boxes for homepage feature images */
+
+.sp-feature-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sp-feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}

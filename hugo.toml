@@ -1,0 +1,6 @@
+baseURL = "https://spfoundation.github.io/"
+languageCode = 'en-us'
+title = 'Swarnim Prayash Foundation'
+
+[params]
+  description = 'NGO website'

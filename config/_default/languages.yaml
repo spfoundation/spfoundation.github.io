@@ -1,0 +1,89 @@
+en:
+  languageName: English
+  weight: 1
+  ### copyright (markdown can be used) ###
+  copyright: "Copyright &copy; {{< current_year >}} Company Name. All Rights Reserved. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
+  title: "Site Title"
+  params:
+    description: "Site Description"
+    ### accessibility ###
+    accessibility:
+      skip_text: "Skip to content"
+      help_text: "Accessibility Statement"
+      help_url: "/example-page/"
+    ### calls to action ###
+    main_cta:
+      text: "Contact Us"
+      link: "/#contact"
+    footer_cta:
+      text: "Contact Us"
+      link: "/#contact"
+    github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "about"
+      name: "About"
+      url: "/#about"
+      weight: 1
+
+    - identifier: "work"
+      name: "Our Work"
+      url: "/#work"
+      weight: 2
+
+    - identifier: "faq"
+      name: "FAQ"
+      url: "/faq/"
+      weight: 3
+
+    - identifier: "blog"
+      name: "Blog"
+      url: "https://www.facebook.com/people/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A4%BF%E0%A4%AE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AF%E0%A4%BE%E0%A4%B8-%E0%A4%AB%E0%A4%BE%E0%A4%89%E0%A4%82%E0%A4%A1%E0%A5%87%E0%A4%B6%E0%A4%A8/100089017816840/"
+      weight: 4
+
+    - identifier: "community"
+      name: "Join Community"
+      url: "https://www.facebook.com/groups/2849695015301110/"
+      weight: 5
+  
+    # - identifier: "child-1"
+    #   name: "Example Child Page"
+    #   url: "/example-page/"
+    #   weight: 1
+    #   post: "Nulla consequat massa quis enim. Donec pede justo."
+    #   parent: "about"
+    # - identifier: "demo-page"
+    #   name: "Demo Page"
+    #   url: "/demo-page/"
+    #   weight: 2
+    # - identifier: "example"
+    #   name: "External"
+    #   url: "https://cncf.io?ref=dot-org"
+    #   weight: 5
+# es:
+#   languageName: Spanish
+#   contentDir: content/es
+#   weight: 2
+#   title: "Título del Sitio"
+#   params:
+#     description: "Descripción del Sitio"
+#   menu:
+#     main:
+#     - identifier: "about"
+#       name: "Acerca de"
+#       url: "/example-page/"
+#       weight: 1
+#     - identifier: "child-1"
+#       name: "Página Hija de Ejemplo"
+#       url: "/example-page/"
+#       weight: 1
+#       parent: "about"
+#     - identifier: "faq"
+#       name: "FAQs"
+#       url: "/faq/"
+#       weight: 3
+#     - identifier: "blog"
+#       name: "Blog"
+#       url: "/blog/"
+#       weight: 2
