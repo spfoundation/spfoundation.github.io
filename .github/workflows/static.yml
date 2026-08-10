@@ -42,6 +42,7 @@ jobs:
       - name: Install Dart Sass
         run: |
           sudo snap install dart-sass
+          sudo snap alias dart-sass sass
           sass --version
 
       - name: Checkout
